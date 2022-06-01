@@ -20,6 +20,7 @@ public class ArrayListMain {
 		employeeList.add(new Employee("Mary", "Smith", 22));
 		employeeList.add(new Employee("Mike", "Wilson", 3245));
 
+
 		System.out.println(employeeList.get(1));
 		System.out.println(employeeList.isEmpty());
 		employeeList.set(1, new Employee("John", "Adams", 4568));
